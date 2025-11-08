@@ -15,7 +15,7 @@ markdown-it-py==4.0.0
 MarkupSafe==3.0.3
 mdurl==0.1.2
 narwhals==2.10.2
-numpy==2.3.4
+numpy>=1.26.0,<2.0.0
 packaging==24.2
 pandas==2.3.3
 pillow==11.3.0
@@ -38,3 +38,8 @@ tornado==6.5.2
 typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.5.0
+python-dotenv==1.2.1
+langchain>=1.0.5
+langchain-core>=1.0.4
+langchain-openai>=1.0.2
+openai>=2.7.1
